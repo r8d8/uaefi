@@ -54,3 +54,10 @@ J10,"39301160","02x08_4.2mm","C5355564"
 #include hellen-one/board_id/generated/board_id_uaefi-a.csv
 
 #include bom_pullups_uaefi-f3.csv
+
+# dumb coils for the DLE-60 (r8d8 fork): IGBTs on channels 1 and 2 only, per the note on the Ignition sheet.
+# Channels 3 to 6 stay logic outputs: B10 (IGN6) carries the throttle servo pulse.
+Q7,"ISL9V3040D3ST","DPAK","C603080"
+Q8,"ISL9V3040D3ST","DPAK","C603080"
+R20,
+R21,
