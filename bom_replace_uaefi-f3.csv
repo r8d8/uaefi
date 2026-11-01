@@ -28,8 +28,9 @@ U105,"STM32F407VGT6","LQFP100","C12345"
 #without CAN2
 "C430,C431,D430,R430,U430",
 
-#VNLD5090
-"U6,U7,U8,U9,U10,U11","VNLD5090","SO-8","C222209"
+# VNLD5160, the part the schematic is drawn with: the VNLD5090 (C222209) has no stock at JLC (r8d8 fork).
+# Enough for the DLE-60: one injector, the pump on a relay.
+"U6,U7,U8,U9,U10,U11","VNLD5160TR-E","SO8","C377942"
 
 #79 RTC battery drain
 D107,
@@ -61,3 +62,6 @@ Q7,"ISL9V3040D3ST","DPAK","C603080"
 Q8,"ISL9V3040D3ST","DPAK","C603080"
 R20,
 R21,
+
+# wideband heater switch VNN7NV04PTR-E: no stock at JLC or LCSC, fitted by hand (r8d8 fork)
+Q600,
